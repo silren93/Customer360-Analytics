@@ -1,5 +1,38 @@
 # Customer360 Analytics: Enterprise Data Engineering Pipeline
 
+## Project Structure
+
+```
+Customer360-Analytics/
+├──  ETL_scripts/
+│   └──  ETL_script.py              # Main ETL pipeline implementation
+├──  results/
+│   └──  output_customer_data/
+│       ├──  _SUCCESS               # Spark success marker
+│       └──  part-*.csv             # Processed customer analytics data
+├──  mapping.xlsx                   # Keyword categorization mapping
+└──  README.md                      # Comprehensive project documentation
+```
+
+## Quick Start
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/silren93/Customer360-Analytics.git
+   cd Customer360-Analytics
+   git checkout etl-pipeline
+   ```
+
+2. **Run ETL Pipeline**
+   ```bash
+   cd ETL_scripts
+   python ETL_script.py
+   ```
+
+3. **View Results**
+   - Check `results/output_customer_data/` for processed CSV files
+   - Use `mapping.xlsx` for keyword categorization reference
+
 ## Abstract
 This project implements a comprehensive Customer 360-degree analytics platform utilizing modern data engineering methodologies. The system processes multi-modal customer interaction data through a scalable Apache Spark-based ETL pipeline, enabling advanced customer segmentation, behavioral analysis, and business intelligence capabilities.
 
@@ -149,6 +182,23 @@ Comprehensive analytical dashboards built using Microsoft Power BI, featuring:
 
 **Detailed Analytics Report:**
 
+
+## Features Included
+
+ **Complete ETL Implementation**  
+ **Customer Segmentation Analytics**  
+ **Search Behavior Analysis**  
+ **Statistical Customer Classification**  
+ **Multilingual Data Processing**  
+ **Production-Ready Results**
+
+## Technology Stack
+
+-  **Apache Spark 4.0+** - Distributed data processing
+-  **Python 3.8+** - Core implementation language  
+-  **Azure MySQL** - Production database
+-  **Power BI** - Business intelligence dashboards
+-  **Statistical Analytics** - IQR-based segmentation
 
 ## Technical Implementation
 
