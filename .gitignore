@@ -1,0 +1,45 @@
+# Ignore everything by default
+*
+
+# Only include specific folders and files
+!ETL_scripts/
+!ETL_scripts/**
+!results/
+!results/**
+!mapping.xlsx
+!README.md
+!.gitignore
+
+# Exclude artifacts and temporary files
+artifacts/
+.vscode/
+dataset/
+documents/
+pictures/
+run_etl.py
+mapping.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+
+# Spark/Hadoop temporary files
+.spark-warehouse/
+derby.log
+metastore_db/
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
