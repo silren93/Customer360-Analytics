@@ -37,7 +37,7 @@ Customer360-Analytics/
 This project implements a comprehensive Customer 360-degree analytics platform utilizing modern data engineering methodologies. The system processes multi-modal customer interaction data through a scalable Apache Spark-based ETL pipeline, enabling advanced customer segmentation, behavioral analysis, and business intelligence capabilities.
 
 ## Architecture Overview
-![Data Pipeline Architecture](https://github.com/hien2706/Customer360/blob/main/pictures/ETL_pipeline_new.png)
+![Data Pipeline Architecture](https://github.com/silren93/Customer360-Analytics/blob/etl-pipeline/pictures/architecture_ETL_pipeline.png)
 
 The solution employs a distributed data processing architecture with the following technology stack:
 
