@@ -178,9 +178,10 @@ Comprehensive analytical dashboards built using Microsoft Power BI, featuring:
 - **Device Usage Analytics**: Multi-device usage patterns and cross-platform behavior analysis
 
 **Interactive Dashboard:**
-
+![Customer 360° Analytics Dashboard](https://github.com/silren93/Customer360-Analytics/blob/etl-pipeline/pictures/customer360_dashboard.jpg)
 
 **Detailed Analytics Report:**
+📊 [Download Full Dashboard Report (PDF)](https://github.com/silren93/Customer360-Analytics/blob/etl-pipeline/pictures/customer360_dashboard.pdf)
 
 
 ## Features Included
